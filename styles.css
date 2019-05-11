@@ -1,6 +1,7 @@
-
-.CodeMirror {
-  border: 1px solid #eee !important;
-  height: auto !important;
+.tp-modal {
+    display: none!important;
 }
 
+.tp-backdrop {
+    display: none!important;
+}

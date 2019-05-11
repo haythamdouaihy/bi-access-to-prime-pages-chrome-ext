@@ -1,11 +1,11 @@
 {
     "manifest_version": 2,
-    "name": "gist-editor-height-enlarger",
+    "name": "bi-access-to-prime-pages",
     "version": "0.0.1",
-    "description": "chrome app used to enlarge gist editor",
+    "description": "chrome app that allows you to access business insider prime pages",
     "content_scripts": [{
-        "css": ["styles.css"],
         "js": ["content.js"],
-        "matches": ["https://gist.github.com/*"]
+        "css": ["styles.css"],
+        "matches": ["https://www.businessinsider.com/*"]
     }]
 }
