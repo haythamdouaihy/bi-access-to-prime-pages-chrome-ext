@@ -2,14 +2,14 @@
 
 ## Details
 
-1. Some business insider pages disable page reading by displaying a popup to subscribe to PRIME reports, also the background will be faded and body scroll will be removed
+1. Some business insider pages disable page reading by displaying a popup to subscribe to PRIME reports, also the background will be faded and body scroll will be removed.
 2. So, by simply removing these 3 barriers, page will be clear for reading from any popups and opaque divs and body scroll will come back to normal.
-3.
+3. This plugin does this above simple job for you and lets you enjoy reading bi prime reports without any obstacles.
 
 
 ## Installation
 
-1. Download this [repo](https://github.com/haythamdouaihy/github-editor-textarea-enlarger-chrome-ext.git)
+1. Download this [repo](https://github.com/haythamdouaihy/chrome-ext-bi-access-to-prime-pages.git)
 2. Open chrome browser
 3. Go to extensions: chrome://extensions
 4. Click on *LOAD UNPACKED* to select the current downloaded chrome app base folder
