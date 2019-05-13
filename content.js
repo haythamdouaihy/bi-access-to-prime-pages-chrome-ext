@@ -4,13 +4,11 @@ document.onreadystatechange = function(){
         setTimeout(function() {
             var b = document.getElementsByTagName('body');
 
-            if(b.classList !== undefined) {
-                b.classList.remove('tp-modal-open');
-
+            if(b[0].classList !== undefined) {
+                b[0].classList.remove('tp-modal-open');
             } else {
-
-                b.className = '';
+                b[0].className = '';
             }
-        }, 3000);
+        }, 500);
      }
 }
