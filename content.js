@@ -11,4 +11,9 @@ document.onreadystatechange = function(){
             }
         }, 500);
      }
+
+     if(document.querySelectorAll('[data-piano-inline-content-wrapper]')[0] !== 'undefined') {
+     	document.querySelectorAll('[data-piano-inline-content-wrapper]')[0].style.display = 'block';
+     }
+
 }
